@@ -1,0 +1,305 @@
+    /* Mobile phone  (max-width 480px)*/
+    @media screen  and (max-width:480px){
+        
+    /* Header style */
+      header{
+            height: 40px;
+            padding: 15px;
+        }
+        /* Navigation style */
+        nav{
+            display: block;
+            width: 100%;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0%;
+            padding: 1px;
+        }
+        nav a{
+            display: inline-block;
+            padding: 7px;
+            text-align: center;
+        }
+    }
+
+
+
+    /* Tablet Devices (min-width:480px, max-width:768px) */
+    @media screen and (min-width:480px) and (max-width:768px){
+          /* Header Styles */
+  header {
+    height: 75px;
+    padding: 20px;
+    background-color: #bdbdbd;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    padding: 10px;
+  }
+    }
+
+    @media screen and (max-width:480px) {
+        /* styles for the section on mobile phone */
+        section{
+          padding-left: 3%;
+          padding-right: 3%;
+        }
+        .firstsection {
+          background-image: none;
+          padding: 20px;
+        }
+        /* second section */
+        .secondsection{
+            padding: 7px;
+        }
+        .p{
+            font-size: 10px;
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+        }
+        /* fifth section */
+        .fifthsection{
+           padding-bottom: 10px;
+        }
+        .paren{
+            display: block;
+            gap: 20px;
+            padding: 10px;
+        }
+        .pink{
+            height: 500px;
+            width: 500px;
+        }
+        .seconddiv{
+            padding: 10px;
+        }
+        .mother{
+            display: block;
+        }
+        
+        .container{
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+        .picture{
+            height: 400px;
+            width: 200px;
+        }
+        .button{
+            padding: 20px;
+        }
+        .whole{
+            display: block;
+            gap: 10px;
+        }
+        input{
+              padding: 2px;
+        }
+        select{
+                padding-left: 5px;
+        }
+        textarea{
+                padding: 10px;
+        }
+        .fifthdiv{
+            display: block;
+        }
+        .imag{
+          height: 500px;
+          width: 700px;
+      }
+      .prent{
+          display: block;
+      }
+      /* footer section */
+      .footerdiv{
+        display: block;
+        text-align: left;
+        padding-left: 40%;
+    }
+    }
+      
+    @media screen and (max-width: 768px) {
+        /* Styles for the section on Tablet devices */
+        section{
+          padding-left: 4%;
+          padding-right: 4%;
+        }
+        .firstsection {
+          background-image: none;
+          padding: 30px;
+        }
+        /* second section */
+        .secondsection{
+            padding: 10px;
+        }
+        .p{
+            font-size: 20px;
+        }
+        .img{
+            height: 300px;
+            width: 300px;
+        }
+        /* fifth section */
+        .fifthsection{
+           padding-bottom: 10px;
+        }
+        .paren{
+            display: block;
+            gap: 20px;
+            padding: 20px;
+        }
+        .pink{
+            height: 500px;
+            width: 500px;
+        }
+        .seconddiv{
+            padding: 10px;
+        }
+        .mother{
+            display: block;
+        }
+        
+        .container{
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+        .picture{
+            height: 500px;
+            width: 300px;
+        }
+        .button{
+            padding: 20px;
+        }
+        .whole{
+            display: block;
+            gap: 10px;
+        }
+        input{
+              padding: 2px;
+        }
+        select{
+                padding-left: 5px;
+        }
+        textarea{
+                padding: 10px;
+        }
+        .fifthdiv{
+            display: block;
+        }
+        .imag{
+            height: 400px;
+            width: 600px;
+        }
+        .prent{
+            display: block;
+        }
+        /* footer section */
+        .footerdiv{
+          display: block;
+          text-align: left;
+          padding-left: 40%;
+      }
+      }
+      
+      @media screen and (min-width: 769px) {
+        /* Styles for the section on desktop devices */
+        section{
+          padding-left: 6%;
+          padding-right: 6%;
+        }
+        .firstsection {
+          padding: 100px;
+        }
+         /* second section */
+         .secondsection{
+          padding: 50px;
+      }
+      .p{
+          font-size: 40px;
+      }
+      .img{
+          height: 400px;
+          width: 600px;
+          border-radius: 0px;
+      }
+      /* fifth section */
+      .fifthsection{
+         padding-bottom: 10px;
+      }
+      .paren{
+          display: flex;
+          gap: 10px;
+          padding: 20px;
+      }
+      .pink{
+          height: 500px;
+          width: 500px;
+      }
+      .seconddiv{
+          padding: 50px;
+      }
+      .mother{
+          display: flex;
+          gap: 20px;
+      }
+      
+      .container{
+          gap: 30px;
+          padding-bottom: 40px;
+      }
+      .picture{
+          height: 600px;
+          width: 400px;
+      }
+      .button{
+          padding: 30px;
+      }
+      .whole{
+          display: flex;
+          gap: 30px;
+      }
+      input{
+            padding: 5px;
+      }
+      select{
+              padding-left: 25px;
+      }
+      textarea{
+              padding: 20px;
+      }
+      .fifthdiv{
+          display: flex;
+      }
+      .imag{
+          height: 200px;
+          width: 200px;
+      }
+      .prent{
+          display: flex;
+          justify-content: space-between;
+      }
+      /* footer section */
+      .footerdiv{
+        display: flex;
+        text-align: center;
+        padding-left: 470px;
+    }
+    }
+      
+      
